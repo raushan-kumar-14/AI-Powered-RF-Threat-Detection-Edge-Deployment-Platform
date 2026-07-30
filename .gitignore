@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# -----------------------------
+# RF Threat Detection Project
+# -----------------------------
+
+.venv/
+
+datasets/
+
+wandb/
+
+logs/
+
+outputs/
+
+*.pth
+*.onnx
+*.engine
+
+.env
+
+.vscode/
