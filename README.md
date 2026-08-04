@@ -553,63 +553,112 @@ python inference/predict.py
 | Module | Status |
 |---------|---------|
 | Repository Setup | ✅ Completed |
-| Documentation | 🚧 In Progress |
-| Signal Processing | 🚧 In Progress |
-| Dataset Pipeline | 🚧 In Progress |
-| Spectrogram Generation | 🚧 In Progress |
-| CNN Training | 🚧 In Progress |
-| Threat Detection | 🚧 In Progress |
-| FastAPI Backend | 🚧 In Progress |
-| React Dashboard | 🚧 In Progress |
-| ONNX Export | 🚧 In Progress |
-| TensorRT Optimization | 🚧 In Progress |
-| Edge Deployment | 🚧 In Progress |
+| Project Documentation | ✅ Completed |
+| RF Signal Processing Utilities | ✅ Completed |
+| Spectrogram Generation | ✅ Completed |
+| Dataset Pipeline | ✅ Completed |
+| CNN Model Training | ✅ Completed |
+| Model Evaluation | ✅ Completed |
+| ONNX Model Export | ✅ Completed |
+| FastAPI Backend | ✅ Completed |
+| React Dashboard | ✅ Completed |
+| RF Spectrogram Upload | ✅ Completed |
+| AI Signal Classification | ✅ Completed |
+| Prediction Dashboard | ✅ Completed |
+| Spectrum Visualization | ✅ Completed |
+| Detection History (Frontend) | ✅ Completed |
+| TensorRT Export Scripts | ✅ Completed |
+| Edge Deployment Utilities | 🚧 In Progress |
+| SQLite Detection Database | 🚧 In Progress |
+| Real-Time SDR Streaming | 🚧 In Progress |
+| Analytics Dashboard | 🚧 In Progress |
+| Docker Deployment | 🚧 In Progress |
 
 ---
 # 🧩 Core Modules
 
-The platform is organized into modular components, allowing independent development, testing, and deployment.
+The platform is organized into modular components for RF signal intelligence, AI-powered classification, and edge deployment.
 
 | Module | Description |
 |----------|-------------|
-| RF Signal Processing | RF signal generation, filtering, FFT, STFT, and feature extraction |
-| IQ Data Processing | Reading, preprocessing, normalization, and visualization of IQ samples |
-| Spectrogram Generation | Conversion of RF signals into spectrogram images for deep learning |
-| Dataset Management | Dataset preparation, preprocessing, augmentation, and labeling |
-| Deep Learning | CNN-based RF signal classification and threat detection |
-| Model Evaluation | Performance analysis, confusion matrix, ROC curves, and benchmarking |
-| Experiment Tracking | Model comparison and experiment logging |
-| Backend API | FastAPI-based inference and model
+| RF Signal Processing | IQ signal processing, FFT, STFT, filtering, normalization, and preprocessing |
+| Spectrogram Generation | Generate spectrogram images from RF IQ samples |
+| Dataset Management | Dataset preparation, organization, preprocessing, and labeling |
+| Deep Learning | CNN model for RF signal classification |
+| Model Evaluation | Accuracy evaluation and performance benchmarking |
+| ONNX Inference | Optimized ONNX Runtime inference for deployment |
+| FastAPI Backend | REST API for RF spectrogram prediction |
+| React Dashboard | Interactive web dashboard for RF threat monitoring |
+| Spectrogram Upload | Upload RF spectrogram images for AI analysis |
+| Prediction Engine | AI-based signal classification with confidence score |
+| Spectrum Visualization | Display uploaded RF spectrograms inside the dashboard |
+| Detection History | Frontend-based prediction history tracking |
+| Edge Deployment | TensorRT conversion and deployment utilities |
 # 🗺️ Development Roadmap
 
-The project is being developed incrementally. The roadmap below reflects the planned implementation.
+The platform is being developed incrementally into a complete AI-powered RF Threat Detection and Spectrum Intelligence System.
 
 ## Phase 1 — RF Fundamentals
 
 - [x] Repository Initialization
 - [x] Project Structure
-- [x] Documentation Setup
-- [ ] RF Fundamentals
-- [ ] Signal Generation
-- [ ] IQ Sample Processing
-- [ ] FFT Implementation
-- [ ] STFT Implementation
-- [ ] Spectrogram Generation
+- [x] Documentation
+- [x] RF Signal Processing Utilities
+- [x] IQ Sample Processing
+- [x] FFT Implementation
+- [x] STFT Implementation
+- [x] Spectrogram Generation
 
 ---
 
-## Phase 2 — Dataset & AI Pipeline
+## Phase 2 — AI Pipeline
 
-- [ ] Dataset Preparation
-- [ ] Data Augmentation
-- [ ] CNN Architecture
-- [ ] Model Training
-- [ ] Hyperparameter Optimization
-- [ ] Model Evaluation
-- [ ] Experiment Tracking
+- [x] Dataset Preparation
+- [x] Dataset Processing
+- [x] CNN Architecture
+- [x] CNN Training
+- [x] Model Evaluation
+- [x] ONNX Export
+- [x] FastAPI Prediction API
+- [x] React Dashboard
+- [x] RF Spectrogram Upload
+- [x] AI Prediction Panel
+- [x] Spectrum Visualization
+- [x] Detection History (Frontend)
 
 ---
 
-## Phase 3 — RF Threat Detection
+## Phase 3 — Persistent Detection Platform
 
-- [ ] Drone Signal Detection
+- [ ] SQLite Detection Database
+- [ ] Detection History API
+- [ ] Search & Filter Detection History
+- [ ] Export Detection Reports (CSV)
+- [ ] Dashboard Analytics
+- [ ] Detection Statistics
+- [ ] Multi-user Support
+
+---
+
+## Phase 4 — Real-Time RF Intelligence
+
+- [ ] SDR Integration
+- [ ] Live IQ Sample Streaming
+- [ ] Real-Time Spectrogram Generation
+- [ ] Continuous RF Signal Classification
+- [ ] RF Threat Detection
+- [ ] Unknown Signal Detection
+- [ ] Interference Detection
+- [ ] Jamming Detection
+- [ ] Spoofing Detection
+
+---
+
+## Phase 5 — Edge AI Deployment
+
+- [ ] TensorRT Optimization
+- [ ] Docker Deployment
+- [ ] Edge Device Deployment
+- [ ] REST API Optimization
+- [ ] Performance Benchmarking
+- [ ] Production Deployment
