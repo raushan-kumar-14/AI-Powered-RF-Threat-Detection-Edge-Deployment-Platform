@@ -1,0 +1,54 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+
+    font-family:"Inter",sans-serif;
+
+    background:
+    radial-gradient(circle at top,#102b56 0%,#07111f 45%,#030712 100%);
+
+    color:white;
+
+    min-height:100vh;
+
+    overflow-x:hidden;
+
+}
+
+/* Root */
+
+#root{
+
+    max-width:1500px;
+
+    margin:auto;
+
+    padding:30px;
+
+}
+
+/* Links */
+
+a{
+
+    color:inherit;
+
+    text-decoration:none;
+
+}
+
+/* Buttons */
+
+button{
+
+    font-family:inherit;
+
+}

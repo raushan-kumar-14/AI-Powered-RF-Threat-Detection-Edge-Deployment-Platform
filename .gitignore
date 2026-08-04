@@ -237,3 +237,10 @@ outputs/
 .env
 
 .vscode/
+*.db
+*.sqlite3
+uploads/
+backend/uploads/
+frontend/dist/
+Thumbs.db
+.DS_Store
